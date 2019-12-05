@@ -26,7 +26,7 @@ var fixtures = []struct {
 
 func TestDuration(t *testing.T) {
 	for _, f := range fixtures {
-		actual := String(f.in)
+		actual := Duration(f.in)
 		if actual != f.expected {
 			t.Errorf(`{"d": %s, "expected": "%s", "actual": "%s"}`,
 				f.in, f.expected, actual)

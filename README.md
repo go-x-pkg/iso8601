@@ -1,6 +1,7 @@
 # iso8601
 
 [![GoDoc][godoc-image]][godoc-url]
+[![Build Status][build-image]][build-url]
 [![Coverage Status][coverage-image]][coverage-url]
 [![Go Report Card][goreport-image]][goreport-url]
 
@@ -40,6 +41,9 @@ PT3M
 
 [godoc-image]: https://godoc.org/github.com/go-x-pkg/iso8601?status.svg
 [godoc-url]: https://godoc.org/github.com/go-x-pkg/iso8601
+
+[build-image]: https://travis-ci.org/go-x-pkg/iso8601.svg?branch=master
+[build-url]: https://travis-ci.org/go-x-pkg/iso8601
 
 [coverage-image]: https://coveralls.io/repos/github/go-x-pkg/iso8601/badge.svg?branch=master
 [coverage-url]: https://coveralls.io/github/go-x-pkg/iso8601?branch=master
