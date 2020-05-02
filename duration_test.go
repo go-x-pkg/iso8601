@@ -10,6 +10,7 @@ var fixtures = []struct {
 	in       time.Duration
 	expected string
 }{
+	{1 * time.Microsecond, "PT0S"},
 	{1 * time.Millisecond, "PT0.1S"},
 	{1*time.Minute + 6*time.Second + 762*time.Millisecond, "PT1M6.762S"},
 	{20 * time.Second, "PT20S"},
